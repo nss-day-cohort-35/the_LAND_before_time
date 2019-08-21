@@ -21,6 +21,7 @@ header, footer {
     padding: 1em;
     display: flex; 
     align-items: center;
+    justify-content: space-between;
 }
 
 ul {
@@ -29,6 +30,10 @@ ul {
 
 h1, h2 {
     padding: .5em 0 .5em 0;
+}
+
+h1 {
+    text-align: center;
 }
 
 nav {
@@ -58,5 +63,15 @@ nav {
 .collab-links {
     display: flex;
     justify-content: space-between;
+}
+
+.main-image {
+    width: 250px;
+}
+
+.living-date {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1em;
 }
 
