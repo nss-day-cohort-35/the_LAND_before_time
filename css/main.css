@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html {
     background-color: black;
     margin-left: 5%;
@@ -52,5 +53,82 @@ aside {
     border-color:black;
     flex-wrap: nowrap;
     color: white;
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    justify-content: center;
+}
+
+main {
+    background-color: pink;
+    margin: 0 5em 0 5em;
+    border: 2px solid black;
+    padding: 1em;
+}
+
+header, footer {
+    background-color: pink;
+    padding: 1em;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1, h2 {
+    padding: .5em 0 .5em 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.nav-links li {
+    margin: 15px 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.collab-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-image {
+    width: 250px;
+}
+
+.living-date {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1em;
+>>>>>>> master
 }
 
