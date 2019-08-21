@@ -1,0 +1,56 @@
+html {
+    background-color: black;
+    margin-left: 5%;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 1em;
+    color: white;
+}
+
+.publishedWork {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-right: 5%;
+    color: white;
+}
+
+
+.wrapper {
+    columns: 2;
+
+}
+
+.main {
+   
+    align-content: center;
+    justify-content: center;
+    box-align: center;
+    column-count: auto;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    color: white;
+}
+
+aside {
+    flex: 1;
+    margin: 1em;
+    flex-wrap: nowrap;
+    color: white;
+}
+
+
+
+.collaboration {
+    flex: 1;
+    border-style: solid;
+    border-color:black;
+    flex-wrap: nowrap;
+    color: white;
+}
+
