@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    justify-content: center;
+}
+
+main {
+    background-color: pink;
+    margin: 0 5em 0 5em;
+    border: 2px solid black;
+    padding: 1em;
+}
+
+header, footer {
+    background-color: pink;
+    padding: 1em;
+    display: flex; 
+    align-items: center;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+h1, h2 {
+    padding: .5em 0 .5em 0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.collab-links {
+    display: flex;
+    justify-content: space-between;
+}
+
