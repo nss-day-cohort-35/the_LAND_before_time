@@ -24,10 +24,6 @@ header, footer {
     justify-content: space-between;
 }
 
-ul {
-    list-style-type: none;
-}
-
 h1, h2 {
     padding: .5em 0 .5em 0;
 }
@@ -46,6 +42,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+    list-style-type: none;
 }
 
 .nav-links li {
@@ -58,11 +55,16 @@ nav {
     align-items: center;
     flex-wrap: wrap;
     flex: 1;
+    list-style-type: none;
 }
 
 .collab-links {
     display: flex;
     justify-content: space-between;
+    flex: 1;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
 }
 
 .main-image {
@@ -73,5 +75,14 @@ nav {
     text-align: center;
     font-weight: bolder;
     font-size: 1em;
+}
+
+.collaborators {
+    display: flex;
+    width: 100%;
+}
+
+iframe {
+    margin: 0 auto;
 }
 
