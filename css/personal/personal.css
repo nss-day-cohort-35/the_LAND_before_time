@@ -1,0 +1,20 @@
+.flexAside {
+    display: flex;
+    align-content: space-between;
+    
+
+}
+
+.asideRight {
+    border: solid;
+    text-align: center;
+}
+
+.asideLeft {
+    border: solid;
+    text-align: center;
+}
+
+.flexContainer {
+    display: flex;
+}
