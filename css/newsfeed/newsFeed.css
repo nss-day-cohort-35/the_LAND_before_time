@@ -1,9 +1,102 @@
-.amy2 { 
-  display: block;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: black;
+    justify-content: center;
+}
+
+main {
+    background-color: pink;
+    margin: 0 5em 0 5em;
+    border: 2px solid black;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header, footer {
+    background-color: pink;
+    padding: 1em;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.nav-links li {
+    margin: 15px 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+    list-style-type: none;
+}
+
+.amy { 
+  display: flex;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   opacity: 0.6;
   filter: alpha(opacity=60);
+  padding: 1em;
     }
 
+iframe {
+    padding: 1em;
+    border: none;
+    display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.dad {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 1em;
+
+}
+
+p {
+    padding: 1em;
+    font: bold;
+    
+}
+
+h1, h2 {
+    padding: .5em 0 .5em 0;
+}
+
+h1 {
+    text-align: center;
+}
