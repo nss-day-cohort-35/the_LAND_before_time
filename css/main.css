@@ -71,6 +71,12 @@ nav {
     padding-bottom: 10px;
 }
 
+.collab-text {
+    text-align: start;
+    align-content: space-between;
+    padding-top: 5px;
+}
+
 .main-image {
     width: 250px;
 }
