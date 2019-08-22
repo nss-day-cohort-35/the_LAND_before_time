@@ -14,6 +14,8 @@ main {
     margin: 0 5em 0 5em;
     border: 2px solid black;
     padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 header, footer {
@@ -22,10 +24,6 @@ header, footer {
     display: flex; 
     align-items: center;
     justify-content: space-between;
-}
-
-ul {
-    list-style-type: none;
 }
 
 h1, h2 {
@@ -46,6 +44,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+    list-style-type: none;
 }
 
 .nav-links li {
@@ -58,11 +57,24 @@ nav {
     align-items: center;
     flex-wrap: wrap;
     flex: 1;
+    list-style-type: none;
 }
 
 .collab-links {
     display: flex;
     justify-content: space-between;
+    flex: 1;
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+.collab-text {
+    text-align: start;
+    align-content: space-between;
+    padding-top: 5px;
 }
 
 .main-image {
@@ -73,5 +85,21 @@ nav {
     text-align: center;
     font-weight: bolder;
     font-size: 1em;
+}
+
+.collaborators {
+    display: flex;
+    width: 100%;
+}
+
+.bio {
+    flex-wrap: wrap;
+}
+
+iframe {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
 }
 
