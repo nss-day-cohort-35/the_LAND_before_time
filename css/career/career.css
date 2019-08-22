@@ -1,12 +1,10 @@
-html {
-    background-color: black;
-    margin-left: 5%;
-}
+
 
 h1 {
     text-align: center;
     text-shadow: 1em;
     color: white;
+
 }
 
 .publishedWork {
@@ -22,11 +20,9 @@ h1 {
 
 .wrapper {
     columns: 2;
-
 }
 
-.main {
-   
+.aMain {
     align-content: center;
     justify-content: center;
     box-align: center;
@@ -34,7 +30,7 @@ h1 {
     border-style: solid;
     border-color: black;
     display: flex;
-    color: white;
+    color: black;
 }
 
 aside {
@@ -52,4 +48,44 @@ aside {
     border-color:black;
     flex-wrap: nowrap;
     color: white;
+} 
+.mainlist {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.sublist {
+    list-style-position: inside;
+    text-indent: 10%;
+}
+
+.collaborationList {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.skillsList {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.skillsTitle {
+  color: pink;
+}
+
+.collaborationTitle {
+    color: pink;
+}
+
+.awardsTitle {
+    color: pink;
+}
+
+.publishedTitle {
+    color: pink;
+    margin-left: 2%;
+}
+
+.sublist {
+    content: "•"; color: pink;
 }
