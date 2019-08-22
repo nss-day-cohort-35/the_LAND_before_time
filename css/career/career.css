@@ -1,0 +1,91 @@
+
+
+h1 {
+    text-align: center;
+    text-shadow: 1em;
+    color: white;
+
+}
+
+.publishedWork {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-right: 5%;
+    color: white;
+}
+
+
+.wrapper {
+    columns: 2;
+}
+
+.aMain {
+    align-content: center;
+    justify-content: center;
+    box-align: center;
+    column-count: auto;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    color: black;
+}
+
+aside {
+    flex: 1;
+    margin: 1em;
+    flex-wrap: nowrap;
+    color: white;
+}
+
+
+
+.collaboration {
+    flex: 1;
+    border-style: solid;
+    border-color:black;
+    flex-wrap: nowrap;
+    color: white;
+} 
+.mainlist {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.sublist {
+    list-style-position: inside;
+    text-indent: 10%;
+}
+
+.collaborationList {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.skillsList {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.skillsTitle {
+  color: pink;
+}
+
+.collaborationTitle {
+    color: pink;
+}
+
+.awardsTitle {
+    color: pink;
+}
+
+.publishedTitle {
+    color: pink;
+    margin-left: 2%;
+}
+
+.sublist {
+    content: "•"; color: pink;
+}

@@ -1,0 +1,8 @@
+.amy2 { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  opacity: 0.5;
+  filter: alpha(opacity=60);
+    }

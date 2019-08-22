@@ -1,8 +1,20 @@
-.flexContainer {
+.flexAside {
     display: flex;
-    flex-wrap: wrap;
+    align-content: space-between;
+    
+
 }
 
-.sectionDiv {
+.asideRight {
+    border: solid;
+    text-align: center;
+}
+
+.asideLeft {
+    border: solid;
+    text-align: center;
+}
+
+.flexContainer {
     display: flex;
 }
