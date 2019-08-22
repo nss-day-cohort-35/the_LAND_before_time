@@ -6,11 +6,16 @@
 
 .ulQuote {
     list-style-type: none;
+    padding: .5em;
 }
 
 .flexH1 {
     display: flex;
     text-align: center;
+}
+
+.liQuote {
+    padding: .5em;
 }
 
 .personalH1 {
@@ -32,6 +37,7 @@
 .quoteDiv {
     border: solid;
     text-align: center;
+    padding: 1em;
 }
 
 .flexSection {
