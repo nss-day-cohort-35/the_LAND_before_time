@@ -20,6 +20,7 @@ h1 {
 
 .wrapper {
     columns: 2;
+    justify-content: center;
 }
 
 .aMain {
@@ -31,6 +32,8 @@ h1 {
     border-color: black;
     display: flex;
     color: black;
+    margin-top: 1%;
+
 }
 
 aside {
@@ -41,7 +44,6 @@ aside {
 }
 
 
-
 .collaboration {
     flex: 1;
     border-style: solid;
@@ -49,7 +51,7 @@ aside {
     flex-wrap: nowrap;
     color: white;
 } 
-.mainlist {
+.awardslist {
     list-style-type: disc;
     list-style-position: inside;
 }
@@ -81,11 +83,39 @@ aside {
     color: pink;
 }
 
+.placesLivedTitle {
+    color: pink;
+}
 .publishedTitle {
     color: pink;
     margin-left: 2%;
 }
 
-.sublist {
-    content: "•"; color: pink;
+.placeslivedList {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.mainlist {
+    color:pink;
+}
+
+h5 {
+    color:white;
+}
+
+.img-hero {
+    outline-style: solid;
+    outline-color: pink;
+    outline-width: 1em;
+    justify-content: space-evenly;
+}
+
+.publishedWork {
+    margin-bottom: 3%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
