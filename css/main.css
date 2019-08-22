@@ -62,7 +62,7 @@ nav {
 
 .collab-links {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     flex: 1;
     margin: 5px;
     width: 100%;
@@ -96,10 +96,11 @@ nav {
     flex-wrap: wrap;
 }
 
-iframe {
+.collab-videos {
     margin: 0 auto;
     width: 100%;
     height: auto;
     padding-bottom: 10px;
+    border: none;
 }
 
