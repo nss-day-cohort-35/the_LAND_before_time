@@ -4,6 +4,23 @@
     box-sizing: border-box;
 }
 
+/* font for navigation bar */
+@font-face {
+    font-family: 'tattoo_inkregular';
+    src: url('../fonts/tatti___-webfont.woff2') format('woff2'),
+         url('tatti___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* font for H1 and H2 */
+@font-face {
+    font-family: 'deftone_stylusregular';
+    src: url('../fonts/deftone_stylus-webfont.woff2') format('woff2'),
+         url('deftone_stylus-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: black;
     justify-content: center;
@@ -18,6 +35,7 @@ main {
     flex-wrap: wrap;
 }
 
+/* determines navigation look and feel - do not touch!! */
 header, footer {
     background-color: pink;
     padding: 1em;
@@ -26,8 +44,21 @@ header, footer {
     justify-content: space-between;
 }
 
+/* Tattoo Ink font is targeting Header */
+header {
+    font-family: 'tattoo_inkregular', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+/* deftone-stylus font is targeting H1s and H2s */
 h1, h2 {
     padding: .5em 0 .5em 0;
+    font-family: 'deftone_stylusregular', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 3em;
 }
 
 h1 {
@@ -40,6 +71,7 @@ nav {
     align-items: center;
 }
 
+/* this keeps the nav links horizontal */
 .nav-links {
     display: flex;
     justify-content: flex-end;
@@ -53,16 +85,17 @@ nav {
 
 .footer-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     flex: 1;
     list-style-type: none;
 }
 
+/* controls the collaborators video section */
 .collab-links {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     flex: 1;
     margin: 5px;
     width: 100%;
@@ -78,13 +111,17 @@ nav {
 }
 
 .main-image {
-    width: 250px;
+    width: 15em;
+    border: 10px ridge darkorchid;
+    margin-left: 20px;
+    position: relative;
+    height: auto;
 }
 
 .living-date {
     text-align: center;
     font-weight: bolder;
-    font-size: 1em;
+    font-size: 2em;
 }
 
 .collaborators {
@@ -93,13 +130,31 @@ nav {
 }
 
 .bio {
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: auto;
 }
 
-iframe {
+.bio-text {
+    padding: 10px;
+}
+
+/* contains the correct aspect ratio of the image */
+.bio-image {
+    width: 100%;
+    height: auto;
+}
+
+.collab-videos {
     margin: 0 auto;
     width: 100%;
     height: auto;
     padding-bottom: 10px;
+    border: none;
+}
+
+.logo {
+    transform: rotate(-11deg)
 }
 
