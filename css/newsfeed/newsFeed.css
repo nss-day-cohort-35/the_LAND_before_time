@@ -1,26 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-
-
-body {
-    background-color: black;
-    justify-content: center;
-}
-
-main {
-    background-color: pink;
-    margin: 0 5em 0 5em;
-    border: 2px solid black;
-    padding: 1em;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-header, footer {
+/* determines navigation look and feel - do not touch!! */
+    header, footer {
     background-color: pink;
     padding: 1em;
     display: flex; 
@@ -28,34 +8,14 @@ header, footer {
     justify-content: space-between;
 }
 
-
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* Tattoo Ink font is targeting Header */
+header {
+    font-family: 'tattoo_inkregular', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5em;
 }
-
-.nav-links {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    list-style-type: none;
-}
-
-.nav-links li {
-    margin: 15px 10px;
-}
-
-.footer-links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    flex: 1;
-    list-style-type: none;
-}
-
+/* images 1-4 */
 .amy { 
   display: flex;
   justify-content: center;
@@ -67,6 +27,7 @@ nav {
   padding: 1em;
     }
 
+    /* video */
 iframe {
     padding: 1em;
     border: none;
@@ -76,7 +37,7 @@ iframe {
   margin-right: auto;
   width: 70%;
 }
-
+/* last image */
 .dad {
     display: flex;
     justify-content: center;
@@ -90,13 +51,7 @@ iframe {
 p {
     padding: 1em;
     font: bold;
+    margin: 2em
     
 }
-
-h1, h2 {
-    padding: .5em 0 .5em 0;
-}
-
-h1 {
-    text-align: center;
-}
+ 
