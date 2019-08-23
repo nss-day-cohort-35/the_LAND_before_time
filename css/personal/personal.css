@@ -1,20 +1,67 @@
-.flexAside {
+/* .quickFactsSection, .quoteSelection {
     display: flex;
-    align-content: space-between;
+    padding: 10px;
+    margin: 10px;
+} */
+
+.ulQuote {
+    list-style-type: none;
+    padding: .5em;
+}
+
+.flexH1 {
+    display: flex;
+    text-align: center;
+}
+
+.liQuote {
+    padding: .5em;
+}
+
+.personalH1 {
+    text-align: center;
+}
+
+.quickFactsSection, .quoteSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: solid white 5px;
+    text-align: center;
+    align-content: center;
+    margin-top: 10px;
+}
+
+
+.quickDiv {
+    padding: .5em;
+}
+
+.quoteDiv {
+    text-align: center;
+    padding: 1em;
+}
+
+.flexSection {
+    display: flex;
+    flex-direction: column;
     
-
 }
 
-.asideRight {
-    border: solid;
+.sectionHeader {
     text-align: center;
 }
-
-.asideLeft {
-    border: solid;
-    text-align: center;
-}
-
-.flexContainer {
+ 
+.imgDiv {
     display: flex;
+    padding: 10px;
+    justify-content: center;
+    margin: 10px;
+}
+
+img{
+    width: auto;
+    height: auto;
+    border: solid 10px;
+    border-color: White;
 }
