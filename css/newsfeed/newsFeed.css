@@ -1,9 +1,57 @@
-.amy2 { 
-  display: block;
+
+/* determines navigation look and feel - do not touch!! */
+    /* header, footer {
+    background-color: pink;
+    padding: 1em;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+} */
+
+/* Tattoo Ink font is targeting Header */
+/* header {
+    font-family: 'tattoo_inkregular', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5em;
+} */
+/* images 1-4 */
+.amy { 
+  display: flex;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   opacity: 0.6;
   filter: alpha(opacity=60);
+  padding: 1em;
     }
 
+    /* video */
+iframe {
+    padding: 1em;
+    border: none;
+    display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+/* last image */
+.dad {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 1em;
+
+}
+
+.textp {
+    padding: 1em;
+    font: bold;
+    margin: 2em
+    
+}
+ 
