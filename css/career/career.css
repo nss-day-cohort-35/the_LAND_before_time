@@ -4,7 +4,6 @@ h1 {
     text-align: center;
     text-shadow: 1em;
     color: white;
-
 }
 
 .publishedWork {
@@ -28,11 +27,10 @@ h1 {
     justify-content: center;
     box-align: center;
     column-count: auto;
-    border-style: solid;
-    border-color: black;
     display: flex;
     color: black;
     margin-top: 1%;
+
 
 }
 
@@ -50,10 +48,19 @@ aside {
     border-color:black;
     flex-wrap: nowrap;
     color: white;
+    background-color: pink;
+    margin-right:20%;
+    margin-left:10%;
 } 
 .awardslist {
     list-style-type: disc;
     list-style-position: inside;
+    background-color: pink;
+    margin-right: 20%;
+    margin-left: 10%;
+    padding-left: 2%;
+    color: black;
+
 }
 
 .sublist {
@@ -64,27 +71,50 @@ aside {
 .collaborationList {
     list-style-type: disc;
     list-style-position: inside;
+    color: black;
+    padding-left: 2%;
 }
 
 .skillsList {
     list-style-type: disc;
     list-style-position: inside;
+    color: black;
+
 }
 
 .skillsTitle {
-  color: pink;
+  color: black;
+  background-color: pink;
+  margin-left: 2%;
+  margin-right: 16%;
+  padding-left: 29%;
+  padding-top: 2%;
 }
 
 .collaborationTitle {
-    color: pink;
+    color: black;
+    padding-left: 35%;
+    padding-top: 2%;
 }
 
 .awardsTitle {
-    color: pink;
+    color: black;
+    padding-top: 2%;
+}
+.placesLived {
+    border-style: solid;
+    border-color: black;
+    padding-top:2%; 
+    background-color: pink;
+    margin-right:20%;
+    margin-left: 10%;
+    color: black;
+    padding-left: 2%;
 }
 
 .placesLivedTitle {
-    color: pink;
+    color: black;
+    padding-left: 18%;
 }
 .publishedTitle {
     color: pink;
@@ -97,7 +127,8 @@ aside {
 }
 
 .mainlist {
-    color:pink;
+    color:black;
+    padding-left: 2%;
 }
 
 h5 {
@@ -118,4 +149,20 @@ h5 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+}
+
+.skills {
+    margin-left: 10%;
+    background-color: pink;
+    margin-left: 12%;
+    margin-right: 14%;
+    padding-left: 2%;
+}
+
+.awardsTitle {
+    padding-left: 40%;
+}
+
+.awardType {
+    text-decoration: underline;
 }
