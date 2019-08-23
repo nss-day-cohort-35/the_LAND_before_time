@@ -83,6 +83,10 @@ nav {
     margin: 15px 10px;
 }
 
+.nav-links li a {
+    font-size: large;
+}
+
 .footer-links {
     display: flex;
     justify-content: space-around;
