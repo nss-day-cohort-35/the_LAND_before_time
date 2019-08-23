@@ -87,6 +87,11 @@ nav {
     font-size: large;
 }
 
+/*nav bar changes to white on hover*/
+.nav-links li a:hover {
+    color: white;
+}
+
 .footer-links {
     display: flex;
     justify-content: space-around;
