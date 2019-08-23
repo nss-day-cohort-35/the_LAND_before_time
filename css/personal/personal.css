@@ -22,11 +22,6 @@
     text-align: center;
 }
 
-.quickFactsSection {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOC6SKXwRPjzxswJgVYa6FFtb-ZNZn5nuhHESDURgbQCY05MGi");
-}
-
-
 .quickFactsSection, .quoteSection {
     width: 100%;
     display: flex;
