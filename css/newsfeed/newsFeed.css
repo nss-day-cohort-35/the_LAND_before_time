@@ -1,20 +1,20 @@
 
 /* determines navigation look and feel - do not touch!! */
-    header, footer {
+    /* header, footer {
     background-color: pink;
     padding: 1em;
     display: flex; 
     align-items: center;
     justify-content: space-between;
-}
+} */
 
 /* Tattoo Ink font is targeting Header */
-header {
+/* header {
     font-family: 'tattoo_inkregular', Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
     font-size: 1.5em;
-}
+} */
 /* images 1-4 */
 .amy { 
   display: flex;
